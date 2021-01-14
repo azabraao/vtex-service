@@ -50,6 +50,7 @@ export default new Service<Clients, State, ParamsContext>({
       GET: [analytics],
     }),
   },
+  
   events: {
     liveUsersUpdate: updateLiveUsers,
   },
